@@ -1,0 +1,36 @@
+{
+  "name": "github-oauth-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantagen/github-oauth-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mantagen/github-oauth-example/issues"
+  },
+  "homepage": "https://github.com/mantagen/github-oauth-example#readme",
+  "dependencies": {
+    "aguid": "^2.0.0",
+    "env2": "^2.1.1",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "inert": "^4.1.0",
+    "joi": "^10.2.2",
+    "pg": "^6.1.4",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

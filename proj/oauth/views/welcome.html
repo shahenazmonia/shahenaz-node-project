@@ -1,0 +1,7 @@
+{{!< layout/default}}
+
+{{#unless user.name}}
+Welcome, it looks like there was problem with your git authorisation.
+{{else}}
+Welcome {{user.name}} from {{user.location}}.
+{{/unless}}
